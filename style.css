@@ -41,3 +41,54 @@ header
  	text-decoration: none;
  	line-height: 100px;
  } 
+ .content{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.left, .right{
+	height: 400px;
+	margin: 15px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	width: 1600px;
+}
+.left{
+	width: 1600px;
+}
+.content .center{
+   margin: auto;
+   padding: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+	color: black;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.content .left img{
+	float: left;
+
+	width: auto;
+	height: 350px;
+}
+.content .right img{
+   float: right;
+   position: relative;
+   width: auto;
+   height: 350px;
+}
+.content .center img{
+   height: 350px;
+   width: auto;
+   display: block;
+}
+.t_l1{
+   padding: 15px;
+   position: relative;
+}
+.t_l2{
+   padding: 15px;
+   position: relative;
+}
