@@ -92,3 +92,22 @@ header
    padding: 15px;
    position: relative;
 }
+footer{
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+.footer_f{
+    margin: 0 auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+.footer_f a{
+    color: black;
+}
+.footer_f a:hover{
+    font-weight: 900;
+}
